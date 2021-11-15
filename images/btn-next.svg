@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="44px" viewBox="0 0 154 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>btn-next</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1---shop-type" transform="translate(-832.000000, -494.000000)">
+            <g id="btn-next" transform="translate(834.000000, 496.000000)">
+                <rect id="Rectangle" stroke="#4AADB6" stroke-width="3" fill="#4AADB6" x="0" y="0" width="150" height="40" rx="8"></rect>
+                <text id="Next" font-family="FrutigerLTStd-Light, Frutiger LT Std" font-size="20" font-weight="300" fill="#FFFFFF">
+                    <tspan x="56.06" y="26">Next</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
