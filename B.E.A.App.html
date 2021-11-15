@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <script src="js/lib/jquery-3.3.1.min.js"></script>
+    <script src="js/lib/template7.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>	
+    <script src="js/main.js"></script>
+	<script src="js/objects/page1Obj.js"></script>	
+	<script src="js/objects/page2Obj.js"></script>
+	<script src="js/objects/page3Obj.js"></script>
+	<script src="js/objects/page4Obj.js"></script>
+	<script src="js/objects/page5Obj.js"></script>
+	<script src="js/objects/page6Obj.js"></script>
+	<script src="js/objects/page7Obj.js"></script>
+	<script src="js/objects/page8Obj.js"></script>
+	<script src="js/objects/page9Obj.js"></script>
+	<script src="js/objects/page10Obj.js"></script>
+	<script src="js/globalVariables.js"></script>
+	<script src="js/pages/page1.js"></script>		
+	<script src="js/pages/page2.js"></script>	
+	<script src="js/pages/page3.js"></script>
+	<script src="js/pages/page4.js"></script>
+	<script src="js/pages/page5.js"></script>
+	<script src="js/pages/page6.js"></script>
+	<script src="js/pages/page7.js"></script>
+	<script src="js/pages/page8.js"></script>
+	<script src="js/pages/page9.js"></script>
+	<script src="js/pages/page10.js"></script>
+	<script src="js/pages/header.js"></script>	
+	<script src="js/templates/templateBakery.js"></script>
+	<script src="js/labels.js"></script>
+	<script src="js/config/headerConfig.js"></script>
+	<script src="js/config/page1Config.js"></script>
+	<script src="js/config/page2Config.js"></script>
+	<script src="js/config/page3Config.js"></script>
+	<script src="js/config/page4Config.js"></script>
+	<script src="js/config/page5Config.js"></script>
+	<script src="js/config/page6Config.js"></script>
+	<script src="js/config/page7Config.js"></script>
+	<script src="js/config/page8Config.js"></script>
+	<script src="js/config/page9Config.js"></script>
+	<script src="js/config/page10Config.js"></script>
+	<script src="js/lib/Chart.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bakery.css">	
+	
+	<style>
+	@font-face {
+	   font-family: Frutiger45Light;
+	   src: url(font/FTL_____.TTF);
+	}
+	
+	
+	</style>
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	  <title> B.E.A. App </title>
+</head>
+<body style="background-color: #1c1c1c;overflow-y:hidden ;overflow-x:hidden">
+
+
+<div class="box stack-top" style="display:none" id="overlay">
+  <table style="height: 520px;">
+  <tr>
+   <td style="vertical-align: top;height:10px;padding-left:1060px" colspan="2">
+   <img src="images/icon-close.png" class="overlayClose" onClick="showAboutAppDiv();removeBckGrndColorDiv('overlayMenu2Id');addBckGrndColorDiv('overlayMenu2Id');bakery.hideOverlay();"/>	
+  </td>
+  </tr>
+  <tr>
+  <td style="padding-left:20px">
+	
+	<div id="overlayMenu2Id"  class="overlayMenu2" onClick="showAboutAppDiv(); removeBckGrndColorDiv('overlayMenu2Id');addBckGrndColorDiv('overlayMenu2Id')">About This App</div>
+	</br>
+	<div id="overlayMenu3Id" class="overlayMenu3" onClick="showAboutHalogenDiv(); removeBckGrndColorDiv('overlayMenu3Id');addBckGrndColorDiv('overlayMenu3Id')">About Halogen</div>
+	</br>
+	<div id="overlayMenu1Id" class="overlayMenu1" onClick="showPresentationDiv();removeBckGrndColorDiv('overlayMenu1Id');addBckGrndColorDiv('overlayMenu1Id') ">Few Presentation Tips</div></br>
+	</br></br></br></br></br></br></br></br>
+	<div style="font-family: Frutiger45Light;font-size: 12px">A project in collaboration with</div><img src="images/UBS-logo.svg" style="vertical-align:bottom;padding-top:10px;padding-top: 20px;"/>
+	 
+	<div class="vl"></div>
+  </td>
+  <td >
+  <div class="overlayTxtDiv" id="presentationDiv" style="word-wrap: break-word">
+	  </br>
+	  </br>	  
+<p style="margin-left:300px;font-family: Frutiger45Light;font-weight: bold;font-size:20px;color:#797979">Break-Even Analysis Application</p>
+<p style="margin-left:130px;font-family: Frutiger45Light;font-weight: bold;font-size:20px;color:#797979">A project for Halogen organization in collaboration with UBS AG,Singapore</p><p style="font-family: Frutiger45Light;font-size:16px;color:#797979;text-align:justify;padding-left:20px;padding-right:20px">
+In building a business, entrepreneurs need to ensure financial viability of their business model. What entrepreneurs earn from the sale of services and goods needs to cover the cost of their operations for their business to be profitable. This Break-Even Analysis Application is designed to give students a platform to simulate different cost and profit scenarios, to help them develop a better understanding of how their expenditure and revenue play a part in the financial performance of their business concepts. 
+</br></br>
+This Break-Even Analysis Application (BEA App) is built in collaboration with UBS Singapore, and is a pro bono project kindly powered by volunteer efforts who spent their personal time to build this from scratch.</br></br>Initially the application was intended to be on Android platform. However, in light of the COVID situation it was changed to a web based platform to allow for more flexibility for remote usage.</br></br>The application was built over a period of 9 months and over 320 voluntary hours with innumerable good intentions!!</br></br><p style="padding-top:5px;padding-left:650px;font-family: Frutiger45Light;font-size:16px;color:#797979;">Graphics credits:<a href="https://www.freepikcompany.com/legal#nav-freepik" style="text-decoration:none" target="_blank"><font color="4AADB6">Freepik.com</a></p></font></p>
+	 
+	 
+  </div>
+  
+  </td>
+ 
+  </tr>  
+  </table>
+
+</div>
+<table  style="width: 100%;">
+	<tr>
+		<td style="width: 8%; vertical-align:top">	
+           <!--img src="images/ubs_semibold_20_31x84_rgb.png" style="vertical-align:bottom;padding-top:70px;padding-left:20px;width:100px"/-->	
+		</td>
+		<td style="width: 70%;">
+			<div id="bakeryheader">			   
+			</div>
+			<div id="bakeryBase" style="height:530px">			  
+			</div>
+		</td>
+		<td style="width: 15%;height: 350px">
+		<table style="height:100%;width:100%;">
+  <tr style="height:20%;border:solid;"><td style="width:100%" colspan="2"><img src="images/Halogen_Logo.png" style="width:115px;padding-left:90px"></td></tr>
+  <tr><td><div id="showCalculator" style=" vertical-align: top;height: 100%;width: 100%;">	   
+			</div></td><td></td></tr>
+</table>
+		</td>
+	</tr>
+	<tr style="display:none">
+	 <td colspan="3">
+	  <table style="width:100%">
+	    <tr>
+		 <td style="width:15%">
+		 
+				<!--p onmouseover="bakery.boldText(this)" onmouseout="bakery.normalText(this)" style="vertical-align:top" class="ubsLabel">In collaboration with <img src="images/ubs_semibold_20_31x84_rgb.png" style="vertical-align:bottom"/> </p-->
+			<!--p onmouseover="bakery.boldText(this)" onmouseout="bakery.normalText(this)" style="vertical-align:top;width:200px" class="ubsLabel" id="footerLeft"> </p-->	
+			
+		 </td>
+		 <td style="width:70%">	
+			  
+		 </td>
+		 <td style="width:15%">	
+		           	  
+		 </td>
+		</tr>
+	  </table>
+	 </td>
+	</tr>	    
+	<tr>
+	 <td colspan="3">
+	  <table style="width:100%">
+	    <tr>
+		 <td style="width:15%">
+		  <div id="incrementalImages"></div>
+				<!--p onmouseover="bakery.boldText(this)" onmouseout="bakery.normalText(this)" style="vertical-align:top" class="ubsLabel">In collaboration with <img src="images/ubs_semibold_20_31x84_rgb.png" style="vertical-align:bottom"/> </p-->
+			<!--p onmouseover="bakery.boldText(this)" onmouseout="bakery.normalText(this)" style="vertical-align:top;width:200px" class="ubsLabel" id="footerLeft"> </p-->	
+			
+		 </td>
+		 <td style="width:80%">	
+			<p style="float:right;width:400px" id="nxtbckBtnPTag">		 
+			   <input type="button" Value="Back" onclick="bakery.prevButton()" id="backButtonId" class="buttonIdCls"/>&nbsp;&nbsp;
+			   <input type="button" Value="Next" onclick="bakery.nxtButton()" id="nxtButtonId" class="buttonIdCls" />	
+			</p>		   
+		 </td>
+		 <td style="width:5%">	
+		           	   
+		 </td>
+		</tr>
+	  </table>
+	 </td>
+	</tr>	    
+</table>
+
+
+
+</body>
+<script type="text/javascript">
+
+
+function addBckGrndColorDiv(id){
+
+if(id=='overlayMenu1Id')
+document.getElementById(id).classList.add("overlayDiv1Menu");
+else if(id=='overlayMenu2Id')
+document.getElementById(id).classList.add("overlayDiv2Menu");
+
+else if(id=='overlayMenu3Id')
+document.getElementById(id).classList.add("overlayDiv3Menu");
+}
+
+function removeBckGrndColorDiv(id){
+if(id=='overlayMenu1Id')
+{
+	document.getElementById("overlayMenu2Id").classList.remove("overlayDiv2Menu");
+	document.getElementById("overlayMenu3Id").classList.remove("overlayDiv3Menu");
+}
+else if(id=='overlayMenu2Id')
+{
+	document.getElementById("overlayMenu1Id").classList.remove("overlayDiv1Menu");
+	document.getElementById("overlayMenu3Id").classList.remove("overlayDiv3Menu");
+}
+else if(id=='overlayMenu3Id')
+{
+	document.getElementById("overlayMenu1Id").classList.remove("overlayDiv1Menu");
+	document.getElementById("overlayMenu2Id").classList.remove("overlayDiv2Menu");
+}
+}
+
+function showPresentationDiv()
+{
+document.getElementById('presentationDiv').innerHTML=
+'</br>'+
+'	  </br>'+
+'<p style="margin-left:220px;font-family: Frutiger45Light;font-weight: bold;font-size:20px;color:#797979">	  Tips for Making Effective PowerPoint Presentations</p>'+
+'	  <p style="font-family: Frutiger45Light;font-size:16px;color:#797979;text-align:justify;padding-left:20px;padding-right:20px">'+
+'	 <span>&#8226;</span>&nbsp;Use the slide master feature to create a consistent and simple design template. It is fine to vary the content presentation (i.e., bulleted list, 2-column text, text & image), but be consistent with other elements such as font, colors, and background.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Simplify and limit the number of words on each screen. Use key phrases and include only essential information.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Limit punctuation and avoid putting words in all capital letters. Empty space on the slide will enhance readability.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Use contrasting colors for text and background. Light text on a dark background is best. Patterned backgrounds can reduce readability of text.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Avoid the use of flashy transitions such as text fly-ins. These features may seem impressive at first, but are distracting and get old quickly.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Overuse of special effects such as animation and sounds may make your presentation “cutesy”.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Use good quality images that reinforce and complement your message. Ensure that your image maintains its impact and resolution when projected on a larger screen.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp; Practice with someone who has never seen your presentation. Ask them for honest feedback about colors, content, and any effects or graphical images you’ve included.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Do not read from your slides. The content of your slides is for the audience, not for the presenter.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp; Do not speak to your slides. Many presenters face the direction of their presentation rather than their audience.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Do not apologize for anything in your presentation. If you believe something will be hard to read or understand, don’t use it.'+
+'	 </br>'+
+'	  </br>'+
+'	  <b>Tips for Making Effective PowerPoint Presentations Fonts</b>'+
+'	  </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Select a single sans-serif fonts such as Arial or Helvetica. Avoid serif fonts such as Times New Roman or Palatino because these fonts are sometimes more difficult to read.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Use no font size smaller than 24 point.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Use the same font for all your headlines.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Select a font for body copy and another for headlines.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp; Use bold and different sizes of those fonts for captions and subheadings.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Add a fourth font for page numbers or as a secondary body font for sidebars.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Don’t use more than four fonts in any one publication.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp; Clearly label each screen. Use a larger font (35-45 points) or different color for the title.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Use different colors, sizes and styles (e.g., bold) for impact.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp; Avoid italicized fonts as these are difficult to read quickly.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Avoid long sentences.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Avoid abbreviations and acronyms.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Limit punctuation marks.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;No more than 6-8 words per line.'+
+'	</br>'+
+'	  </br>'+
+'	  <b>Design and Graphical Images</b>'+
+'	  </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Use design templates.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Standardize position, colors, and styles.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Include only necessary information.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Limit the information to essentials.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp; Content should be self-evident.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Use colors that contrast and compliment.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Too many slides can lose your audience.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp; Keep the background consistent and subtle.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Limit the number of transitions used. It is often better to use only one so the audience knows what to expect.'+
+'	 	  </br>'+
+'	  </br>'+
+'	  <b>Colors</b>'+
+'	  </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Limit the number of colors on a single screen.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Bright colors make small objects and thin lines stand out. However, some vibrant colors are difficult to read when projected.'+
+'	 </br></br>'+
+'	 <span>&#8226;</span>&nbsp;Use no more than four colors on one chart.</p>';
+
+}
+
+function showAboutAppDiv()
+{
+document.getElementById('presentationDiv').innerHTML='</br>'+
+'	  </br>'+
+'	  <p style="margin-left:200px;font-family: Frutiger45Light;font-weight: bold;font-size:20px;color:#797979">Break-Even Analysis application a project by UBS</p>'+
+'	  <p style="margin-left:280px;font-family: Frutiger45Light;font-weight: bold;font-size:20px;color:#797979">For Halogen organization</p><p style="font-family: Frutiger45Light;font-size:16px;color:#797979;text-align:justify;padding-left:20px;padding-right:20px">In building a business, entrepreneurs need to ensure financial viability of their business model. What entrepreneurs earn from the sale of services and goods needs to cover the cost of their operations for their business to be profitable. This Break-Even Analysis Application is designed to give students a platform to simulate different cost and profit scenarios, to help them develop a better understanding of how their expenditure and revenue play a part in the financial performance of their business concepts. '+
+'</br></br>'+
+'This Break-Even Analysis Application (BEA App) is built in collaboration with UBS Singapore, and is a pro bono project kindly powered by volunteer efforts who spent their personal time to build this from scratch.</br></br>Initially the application was intended to be on Android platform. However, in light of the COVID situation it was changed to a web based platform to allow for more flexibility for remote usage.</br></br>The application was built over a period of 9 months and over 320 voluntary hours with innumerable good intentions!!</br></br><p style="padding-top:5px;padding-left:650px;font-family: Frutiger45Light;font-size:16px;color:#797979;">Graphics credits:<a href="https://www.freepikcompany.com/legal#nav-freepik" style="text-decoration:none" target="_blank"><font color="4AADB6">Freepik.com</a></p></font></p> ';
+
+}
+
+function showAboutHalogenDiv()
+{
+document.getElementById('presentationDiv').innerHTML='</br>'+
+'	  </br>'+
+'	  <p style="margin-left:370px;font-family: Frutiger45Light;font-weight: bold;font-size:20px;color:#797979">About Halogen</p></br>'+
+'<p style="font-family: Frutiger45Light;font-size:16px;color:#797979;text-align:justify;padding-left:20px;padding-right:20px">Founded in 2003, Halogen Foundation Singapore is an Institution of a Public Character (IPC) charity focusing on building young leaders and entrepreneurs. Defining leadership and entrepreneurship as influence, Halogen Foundation believes that every young person has innate potential to influence and lead, becoming positive change agents. By developing an entrepreneurial mindset, youths can be further equipped to contribute positively to society. </br></br>Halogen Foundation aims to make quality leadership and entrepreneurship education available to all young people regardless of background, race, income, or religion, particularly those who are disadvantaged - coming from challenging family backgrounds and/or are in need of financial assistance.</font></p> ';
+
+}
+	
+	</script>
+
+</html>
