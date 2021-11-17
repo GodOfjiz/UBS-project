@@ -115,22 +115,54 @@ else if(scenarioSelected=='C')
         borderColorForChart = graphColorBorder.LOSS;
     }
 
+    var day_1 = Math.round(total/30 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_2 = Math.round((total-day_1)/29 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_3 = Math.round((total-day_1-day_2)/28 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_4 = Math.round((total-day_1-day_2-day_3)/27 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_5 = Math.round((total-day_1-day_2-day_3-day_4)/26 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_6 = Math.round((total-day_1-day_2-day_3-day_4-day_5)/25 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_7 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6)/24 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_8 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7)/23 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_9 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8)/22 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_10 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9)/21 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_11 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10)/20 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_12 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11)/19 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_13 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12)/18 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_14 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13)/17 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_15 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14)/16 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_16 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15)/15 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_17 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16)/14 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_18 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17)/13 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_19 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18)/12 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_20 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19)/11 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_21 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20)/10 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_22 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21)/9 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_23 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22)/8 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_24 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23)/7 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_25 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24)/6 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_26 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25)/5 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_27 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25-day_26)/4 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_28 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25-day_26-day_27)/3 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_29 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25-day_26-day_27-day_28)/2 + Math.floor(Math.random() * (30 + 30 + 1) ) -30)
+    var day_30 = total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25-day_26-day_27-day_28-day_29
+     
+    var day = ["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10",
+             "Day 11","Day 12","Day 13","Day 14","Day 15","Day 16","Day 17","Day 18","Day 19","Day 20",
+             "Day 21","Day 22","Day 23","Day 24","Day 25","Day 26","Day 27","Day 28","Day 29","Day 30"]
 
     var myChart = new Chart(ctx, {
-        type: 'bar',
+        type: 'line',
         data: {
-            labels: ['Revenue', 'Expenses'],
+            labels: day,
             datasets: [{
-                data: dataForChart,
-                backgroundColor: [
-                    backgroundColorForChartRevenue,
-                    backgroundColorForChartExpense
-                ],
-                borderColor: [
-                    borderColorForChartRevenue,
-                    borderColorForChartExpense
-                ],
-                borderWidth: 3
+                data: [day_1,day_2,day_3,day_4,day_5,day_6,day_7,day_8,day_9,day_10,
+                    day_11,day_12,day_13,day_14,day_15,day_16,day_17,day_18,day_19,day_20,
+                    day_21,day_22,day_23,day_24,day_25,day_26,day_27,day_28,day_29,day_30],
+                        fill: false,
+                 lineTension: 0,
+                 backgroundColor: "rgba(4,255,0,1.0)",
+                 borderColor: "rgba(4,255,0,0.1)",
+                 borderWidth: 3
             }]
         },
         options: {
@@ -146,62 +178,4 @@ else if(scenarioSelected=='C')
             }
         }
     });
-  var day_1 = Math.round(total/30 + getRndInteger(-30,30))
-  var day_2 = Math.round((total-day_1)/29 + getRndInteger(-30,30))
-  var day_3 = Math.round((total-day_1-day_2)/28 + getRndInteger(-30,30))
-  var day_4 = Math.round((total-day_1-day_2-day_3)/27 + getRndInteger(-30,30))
-  var day_5 = Math.round((total-day_1-day_2-day_3-day_4)/26 + getRndInteger(-30,30))
-  var day_6 = Math.round((total-day_1-day_2-day_3-day_4-day_5)/25 + getRndInteger(-30,30))
-  var day_7 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6)/24 + getRndInteger(-30,30))
-  var day_8 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7)/23 + getRndInteger(-30,30))
-  var day_9 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8)/22 + getRndInteger(-30,30))
-  var day_10 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9)/21 + getRndInteger(-30,30))
-  var day_11 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10)/20 + getRndInteger(-30,30))
-  var day_12 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11)/19 + getRndInteger(-30,30))
-  var day_13 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12)/18 + getRndInteger(-30,30))
-  var day_14 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13)/17 + getRndInteger(-30,30))
-  var day_15 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14)/16 + getRndInteger(-30,30))
-  var day_16 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15)/15 + getRndInteger(-30,30))
-  var day_17 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16)/14 + getRndInteger(-30,30))
-  var day_18 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17)/13 + getRndInteger(-30,30))
-  var day_19 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18)/12 + getRndInteger(-30,30))
-  var day_20 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19)/11 + getRndInteger(-30,30))
-  var day_21 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20)/10 + getRndInteger(-30,30))
-  var day_22 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21)/9 + getRndInteger(-30,30))
-  var day_23 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22)/8 + getRndInteger(-30,30))
-  var day_24 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23)/7 + getRndInteger(-30,30))
-  var day_25 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24)/6 + getRndInteger(-30,30))
-  var day_26 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25)/5 + getRndInteger(-30,30))
-  var day_27 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25-day_26)/4 + getRndInteger(-30,30))
-  var day_28 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25-day_26-day_27)/3 + getRndInteger(-30,30))
-  var day_29 = Math.round((total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25-day_26-day_27-day_28)/2 + getRndInteger(-30,30))
-  var day_30 = total-day_1-day_2-day_3-day_4-day_5-day_6-day_7-day_8-day_9-day_10-day_11-day_12-day_13-day_14-day_15-day_16-day_17-day_18-day_19-day_20-day_21-day_22-day_23-day_24-day_25-day_26-day_27-day_28-day_29
-  var day = ["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10",
-             "Day 11","Day 12","Day 13","Day 14","Day 15","Day 16","Day 17","Day 18","Day 19","Day 20",
-             "Day 21","Day 22","Day 23","Day 24","Day 25","Day 26","Day 27","Day 28","Day 29","Day 30"]
-  var No_of_Sales = [day_1,day_2,day_3,day_4,day_5,day_6,day_7,day_8,day_9,day_10,
-                     day_11,day_12,day_13,day_14,day_15,day_16,day_17,day_18,day_19,day_20,
-                     day_21,day_22,day_23,day_24,day_25,day_26,day_27,day_28,day_29,day_30]
-new Chart("Chart", {
-  type: "line",
-  data: {
-    labels: day,
-    datasets: [{
-      fill: false,
-      lineTension: 0,
-      backgroundColor: "rgba(54, 162, 235, 0.2)",
-      borderColor: "rgba(54, 162, 235, 1)",
-      data: No_of_Sales
-    }]
-  },
-  options: {
-    legend: {display: false},
-    scales: {
-
-    }
-  }
-});
-	
 }
-
-
