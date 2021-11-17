@@ -1,59 +1,31 @@
-bakery.setLocationDataObject = function(){
-var page2ObjInner=pageArray[1];
-page2ObjInner.setLocation(bakery.getNotNullValue("locationId"));
-page2ObjInner.setExpRental(bakery.getNotNullValue("expRental"));
-page2ObjInner.setExpUtility(bakery.getNotNullValue("expUtility"));
-page2ObjInner.setLocationImgInx(document.getElementById("locationId").selectedIndex);
-}
+bakery.setLocationDataObject=function(){
+    var e=pageArray[1];e.setLocation(bakery.getNotNullValue("locationId")),
+    e.setExpRental(bakery.getNotNullValue("expRental")),
+    e.setExpUtility(bakery.getNotNullValue("expUtility")),
+    e.setLocationImgInx(document.getElementById("locationId").selectedIndex)},bakery.restoreLocationDataObject=function(){var e=pageArray[1];null==bakery.getNotNullValueObj(
+    e.getLocation())||""==bakery.getNotNullValueObj(e.getLocation())?(document.getElementById("locationId").
+    value=bakery.translation.locMarina,document.getElementById("expRental").value=locationPrice[0][0],document.getElementById("expUtility").
+    value=locationPrice[0][1],document.getElementById("locationImgTag").src=factsDetails[0][0],document.getElementById("locationFactsTxt").innerHTML=factsDetails[0][1]):
+    (document.getElementById("locationId").value=bakery.getNotNullValueObj(e.getLocation()),
+    document.getElementById("expRental").value=bakery.getNotNullValueObj(e.getExpRental()),
+    document.getElementById("expUtility").value=bakery.getNotNullValueObj(e.getExpUtility()),
+    document.getElementById("locationImgTag").src=factsDetails[e.getLocationImgInx()][0],
+    document.getElementById("locationFactsTxt").innerHTML=factsDetails[e.getLocationImgInx()][1])},
+    bakery.setPrice=function(){var e=document.getElementById("locationId").selectedIndex;document.getElementById("expRental").
+    
 
-bakery.restoreLocationDataObject = function(){
-var page2ObjInner=pageArray[1];
-if(bakery.getNotNullValueObj(page2ObjInner.getLocation())==null || bakery.getNotNullValueObj(page2ObjInner.getLocation())=='')
-  {
- 
-	document.getElementById("locationId").value=bakery.translation['locMarina'];
-	document.getElementById("expRental").value=locationPrice[0][0];
-	document.getElementById("expUtility").value=locationPrice[0][1];
-	document.getElementById("locationImgTag").src=factsDetails[0][0];
-	document.getElementById("locationFactsTxt").innerHTML=factsDetails[0][1];
-
-  }
-else
-{
-  document.getElementById("locationId").value=bakery.getNotNullValueObj(page2ObjInner.getLocation());
-  document.getElementById("expRental").value=bakery.getNotNullValueObj(page2ObjInner.getExpRental());
-  document.getElementById("expUtility").value=bakery.getNotNullValueObj(page2ObjInner.getExpUtility());
-  document.getElementById("locationImgTag").src=factsDetails[page2ObjInner.getLocationImgInx()][0];
-  document.getElementById("locationFactsTxt").innerHTML=factsDetails[page2ObjInner.getLocationImgInx()][1];
-
-}
-}
-
-bakery.setPrice = function(){
-var selectedIndexLocation=document.getElementById("locationId").selectedIndex;
-document.getElementById("expRental").value=locationPrice[selectedIndexLocation][0];
-document.getElementById("expUtility").value=locationPrice[selectedIndexLocation][1];
-pageArray[3].setValEvaluated(false);
-pageArray[6].setValEvaluated(false);
-}
-
-bakery.updateFacts = function(){
-var selectedIndexLocation=document.getElementById("locationId").selectedIndex;
-document.getElementById("locationImgTag").src=factsDetails[selectedIndexLocation][0];
-document.getElementById("locationFactsTxt").innerHTML=factsDetails[selectedIndexLocation][1];
-}
-
+value=locationPrice[e][0],document.getElementById("expUtility").
+value=locationPrice[e][1],pageArray[3].setValEvaluated(!1),pageArray[6].setValEvaluated(!1)},bakery.updateFacts=function()
+{var e=document.getElementById("locationId").selectedIndex;document.getElementById
+("locationImgTag").src=factsDetails[e][0],document.getElementById("locationFactsTxt").innerHTML=factsDetails[e][1]};
 
 var locationPrice = [
-    ['$ 10000', '$ 11000'],
-	['$ 9000', '$ 10000'],
-    ['$ 8000', '$ 9000'],
-    
+    ['$ 55000', '$ 40000'],
+	['$ 70000', '$ 62000'],
+    ['$ 30000', '$ 25000'],   
 ];
-
-var factsDetails = [
-    ['images/Mcdonald.jpg', '</br>&nbsp;&nbsp;LOCATION FACTS </br></br>Mcdonald is restaurant that has fed many american and people around the world. It was found since the 1940s and it spread its influence to around the world.</br></br>'],
-	['images/KFC.jpg', '</br>&nbsp;&nbsp;LOCATION FACTS </br></br>KFC is an American fast food restaurant chain headquartered in Louisville, Kentucky that specializes in fried chicken. It is the world second-largest restaurant chain after McDonalds, with 22,621 locations globally in 150 countries as of December 2019.</br></br>'],
-    ['images/wendy.jpg', '</br>&nbsp;&nbsp;LOCATION FACTS </br></br>Wendys is an American international fast food restaurant chain founded by Dave Thomas on November 15, 1969, in Columbus, Ohio. The company moved its headquarters to Dublin, Ohio, on January 29, 2006.</br></br>'],
     
+    factsDetails=[["images/location/FashionWalk.jpeg","</br> LOCATION FACTS </br></br> Fashion Walk is a very well-known shopping district at the heart of Causeway Bay. The area has nearly 80 trendy shops and diverse restaurants that both locals and tourists enjoy.On weekdays, foot traffic is approximately 13,000 while on weekends, it goes up to 18,000. It is frequented by young adults, teenagers, students and foreigners.</br></br>"],
+    ["images/location/harbourcity.jpeg","</br> LOCATION FACTS </br></br>Harbour City is the largest and most diverse shopping mall in all of Hong Kong. It is under a series of office blocks and hotels. It is located in Tsim Sha Tsui next to the breath-taking Victoria Harbour, which is where the beloved Star Ferry is found. On weekends, 150 thousand people enter the shopping mall and it includes all kinds of people such as local residents, tourists and working adults.</br></br>"],
+    ["images/location/newtownplaza.jpeg","</br> LOCATION FACTS </br></br>Located in the heart of Sha Tin, adjacent to Sha Tin station, New Town Plaza offers around 2 million sq. ft. of exceptional shopping, dining and lifestyle facilities.It's wide variety of international shops attracts many foreigners and locals alike that the plaza is filled with thousands of them in the weekend. It's even considered Hong Kong's busiest mall! </br></br>"]
 ];
