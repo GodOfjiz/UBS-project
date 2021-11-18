@@ -25,7 +25,8 @@ var locationPrice = [
     ['$ 30000', '$ 25000'],   
 ];
     
-    factsDetails=[["images/location/FashionWalk.jpeg","</br> LOCATION FACTS </br></br> Fashion Walk is a very well-known shopping district at the heart of Causeway Bay. The area has nearly 80 trendy shops and diverse restaurants that both locals and tourists enjoy.On weekdays, foot traffic is approximately 13,000 while on weekends, it goes up to 18,000. It is frequented by young adults, teenagers, students and foreigners.</br></br>"],
+    factsDetails=[["images/location/FashionWalk.jpeg","</br> LOCATION FACTS </br></br>Fashion Walk is a very well-known shopping district at the heart of Causeway Bay. The area has nearly 80 trendy shops and diverse restaurants that both locals and tourists enjoy.On weekdays, foot traffic is approximately 13,000 while on weekends, it goes up to 18,000. It is frequented by young adults, teenagers, students and foreigners.</br></br>"],
     ["images/location/harbourcity.jpeg","</br> LOCATION FACTS </br></br>Harbour City is the largest and most diverse shopping mall in all of Hong Kong. It is under a series of office blocks and hotels. It is located in Tsim Sha Tsui next to the breath-taking Victoria Harbour, which is where the beloved Star Ferry is found. On weekends, 150 thousand people enter the shopping mall and it includes all kinds of people such as local residents, tourists and working adults.</br></br>"],
     ["images/location/newtownplaza.jpeg","</br> LOCATION FACTS </br></br>Located in the heart of Sha Tin, adjacent to Sha Tin station, New Town Plaza offers around 2 million sq. ft. of exceptional shopping, dining and lifestyle facilities.It's wide variety of international shops attracts many foreigners and locals alike that the plaza is filled with thousands of them in the weekend. It's even considered Hong Kong's busiest mall! </br></br>"]
 ];
+
